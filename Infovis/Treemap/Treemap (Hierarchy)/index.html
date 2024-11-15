@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TreeViz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>TreeViz: The Treemap Visualizer</h1>
+        <p class="subtitle">Upload a CSV file and choose an attribute to explore the data as a treemap.</p>
+        
+        <div class="upload-section">
+            <label class="file-upload">
+                <input type="file" id="fileInput" accept=".csv">
+                <span>Select CSV File</span>
+            </label>
+            <button id="backButton" class="back-button" style="display: none;">Back</button>
+        </div>
+        
+        <div id="treemap" class="treemap-container"></div>
+    </div>
+  
+    <script src="script.js"></script>
+</body>
+</html>
