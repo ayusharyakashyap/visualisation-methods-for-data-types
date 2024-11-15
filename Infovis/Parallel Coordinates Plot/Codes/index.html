@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallel Coordinate Plot Visualization</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.plot.ly/plotly-2.18.2.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Parallel Coordinate Plot Visualization</h2>
+        <input type="file" id="file-input" accept=".csv" />
+        <div id="attribute-selection">
+            <h3>Select 5 Attributes for Parallel Coordinate Plot:</h3>
+            <div id="checkbox-container"></div>
+        </div>
+        <button id="plot-btn">Plot PCP</button>
+        <div id="plot-container">
+            <div id="plot"></div>
+        </div>
+        <!-- Div to display country mappings below the plot -->
+        <!-- <div id="country-mappings" style="padding-top: 20px;"></div> -->
+        <!-- <div id="country-mappings"></div> -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
