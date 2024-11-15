@@ -1,0 +1,165 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: rgba(30, 30, 30, 0.9); /* Solid dark background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #f4f4f4; /* Light color for better contrast */
+}
+
+/* Style the container */
+.container {
+    background-color: rgba(30, 30, 30, 0.9); /* Match the body background color */
+    border-radius: 8px;
+    padding: 20px 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+
+/* Title styling */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #e0e0e0; /* Light gray for title */
+}
+
+/* File input and button styling */
+input[type="file"],
+button {
+    margin: 10px 0;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* Input and button colors */
+input[type="file"] {
+    background-color: #424242; /* Dark input background */
+    color: #f4f4f4; /* Light text for contrast */
+}
+
+button {
+    background-color: #6a1b9a; /* Dark purple color */
+    color: white;
+}
+
+button:hover {
+    background-color: #8e24aa; /* Lighter purple on hover */
+}
+
+/* Dropdown styling */
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #666; /* Darker border */
+    margin-bottom: 15px;
+    background-color: #424242; /* Dark select background */
+    color: #f4f4f4; /* Light text */
+}
+
+/* Treemap container styling */
+.treemap-container {
+    margin-top: 20px;
+}
+
+/* Container styling */
+.container {
+    background: rgba(30, 30, 30, 0.9); /* Dark background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Title styling */
+h1 {
+    font-size: 2em;
+    color: #f4f4f4; /* Light color for better contrast */
+    margin-bottom: 10px;
+}
+
+/* Subtitle styling */
+.subtitle {
+    font-size: 0.9em;
+    color: #bbb; /* Gray for subtitle */
+    margin-bottom: 20px;
+}
+
+/* File upload styling */
+.upload-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* File upload button */
+.file-upload {
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.file-upload input[type="file"] {
+    display: none;
+}
+
+.file-upload:hover {
+    background-color: #594fe5;
+}
+
+/* Attribute select styling */
+.attribute-select {
+    padding: 8px;
+    border: 1px solid #666; /* Darker border */
+    border-radius: 5px;
+    color: #f4f4f4; /* Light text */
+    width: 100%;
+    max-width: 200px;
+    background-color: #424242; /* Dark background */
+}
+
+/* Generate button styling */
+.generate-button {
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.generate-button:hover {
+    background-color: #594fe5;
+}
+
+/* Treemap container styling */
+.treemap-container {
+    margin-top: 30px;
+    padding: 10px;
+    background: #2b2b2b; /* Darker background for treemap container */
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    min-height: 400px;
+}
