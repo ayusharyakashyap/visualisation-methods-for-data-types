@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Treemap Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.plot.ly/plotly-2.18.2.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CSV Treemap Visualization</h1>
+        </header>
+        <main>
+            <label for="fileInput" class="custom-file-input">
+                Upload CSV File
+                <input type="file" id="fileInput" accept=".csv">
+            </label>
+            <button id="backButton" class="back-button" style="display: none;">Back to Main Treemap</button>
+            <div id="treemap" class="treemap"></div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
